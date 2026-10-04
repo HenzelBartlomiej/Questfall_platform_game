@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Questfall: The Hall"
+description = "A colorful, playable side-scrolling fantasy action game inspired by 16-bit arcade adventures. Explore four stages, collect coins and weapons, cast fire magic, and defeat the Hall's boss."
+version = "1.0.0"
+id = "artifacts/questfall-hall"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20267
+
+[services.development]
+run = "pnpm --filter @workspace/questfall-hall run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/questfall-hall", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/questfall-hall/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20267"
+BASE_PATH = "/"

@@ -1,0 +1,83 @@
+2. Core Level Design Principles
+
+A. Non-Linear Exploration & Branching Paths (The Turrican Blueprint)
+
+Amiga platformers rarely used simple left-to-right corridors. Design levels with verticality, wide-open exploration, and multiple routes:
+
+Primary Path: Clear and reachable for casual play, but slightly more hazardous.
+
+Alternative Paths: High-risk, high-reward upper platforms requiring precise jumping or power-ups.
+
+Sub-Paths / Underground / Secret Caverns: Broad exploratory areas housing extra collectibles, weapon upgrades, keycards, or secret exits.
+
+B. Visual Aesthetics & Atmosphere (AGA Style)
+
+Copper Gradients: Use smooth, multi-color gradient backdrops to create atmospheric skies or deep cave lighting.
+
+Expressive Character Animation: Mirror games like Aladdin by incorporating squishy, fluid animations for landing, swinging, throwing, and idle states to give the character life.
+
+Distinct Biomes: Standard Amiga structure usually follows 4–5 distinct worlds (e.g., Agrabah Streets, Enchanted Forest, Mechanical Factory, Ancient Ruins, Ice Mountain).
+
+Parallax Layers: Incorporate at least 3 layers of foreground/background depth to give levels scale.
+
+C. Secret Density & Rewards
+
+Amiga players loved hunting for secrets. Incorporate:
+
+Fake Walls/Ceilings: Visually solid tiles that dissolve or let the player pass through into hidden rooms.
+
+Invisible Blocks & Platforms: Secret ledges revealed only when shot or stepped on (a staple of Turrican).
+
+Warp Zones & Bonus Stages: Hidden portals or genie lamps that skip sections or lead to mini-game bonus rooms.
+
+Score & Collectible Synergy: Collecting 100% of items, gems, or specific rare tokens should grant extra lives or access to secret final levels.
+
+3. Interactive Objects & Mechanics
+
+To make the environment engaging and dynamic, include a healthy mix of traversal, hazard, puzzle, and combat objects:
+
+Traversal Objects
+
+Springboards, Trampolines & Bouncing Camels: Launch players to high ledges or secret routes.
+
+Ropes, Poles & Clotheslines: Horizontal and vertical climbing structures allowing swinging jumps across gaps (inspired by Aladdin).
+
+Moving Platforms: Horizontal, vertical, and path-following platforms (both permanent and crumbling/timed).
+
+Morph Wheel / Roll Passages: Narrow tunnels passable only in a compact rolling state (inspired by Turrican's Gyro-wheel).
+
+Ziplines & Teleporters: Fast transport across large gaps or between distant sub-areas.
+
+Conveyor Belts: Alter player movement speed and jump momentum.
+
+Hazards & Obstacles
+
+Spike Strips & Acid Pits: Classic immediate damage or instant-kill zones.
+
+Falling Stalactites / Falling Pots: Environmental hazards dropped from above or triggered by proximity.
+
+Turrets & Environmental Shooters: Flame-throwers, guard posts, or dart cannons on timers requiring rhythm-based traversal.
+
+Interactive Switches & Puzzles
+
+Keycards / Keys / Medallions: Colored keys or collectible tokens that unlock matching doors/gates to progress.
+
+Levers & Pressure Plates: Toggle platform movements, drain water/lava levels, or turn off forcefields.
+
+Destructible Blocks & Cracked Walls: Weak walls or floors that require bombs, sword swings, or heavy weapon fire to clear.
+
+Collectibles & Power-Ups
+
+Basic Collectibles: Coins, gems, or fruit scattered along jump arcs to guide player movement.
+
+Ranged Ammunition: Consumable throwables (e.g., apples, throwing daggers, grenades).
+
+Power-Ups:
+
+Weapon Upgrades: Spread shots, lasers, lightning beams, or bouncing projectiles (inspired by Turrican).
+
+Speed Shoes: Temporary movement boost.
+
+Invincibility Star / Shield: Grants temporary immunity or absorbs hits.
+
+Checkpoint Flag/Terminal/Genie Lamp: Save points that light up and play a brief victory chime when touched.
